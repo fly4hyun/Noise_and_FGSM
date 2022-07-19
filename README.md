@@ -1,4 +1,4 @@
-# noise_and_perturbation
+# Noise_and_FGSM
 CIFAR10 데이터셋에 Negative noise, Gaussian Noise, Gaussian blur, Salt and Pepper noise를 추가하는 방법과,
 Adversarial attack 기법 중 FGSM (Fast gradient Signed Method) 기법으로 Adversarial example을 생성하는 방법을 구현하였다.
 
