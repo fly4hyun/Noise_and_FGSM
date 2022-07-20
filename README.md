@@ -5,9 +5,9 @@ Adversarial attack 기법 중 FGSM (Fast gradient Signed Method) 기법으로 Ad
 각 noise의 세기에 따라 딥러닝 모델(Resnet18)의 정확도가 얼마나 감소하는지를 확인하였다.
 
 특히, 기존의 one-hot encoding 방법과 
-논문 "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"에서 제시한 multi-hot encoding 방법이
+논문 "Construction of Error Correcting Output Codes for Robust Deep Neural Networks Based on Label Grouping Scheme"(https://ieeexplore.ieee.org/document/9660486)에서 제시한 multi-hot encoding 방법이
 노이즈의 세기에 얼마나 강인한지를 측정하였다.
-"https://ieeexplore.ieee.org/document/9660486"
+
 
 ------------
 >DataSample/NoisyData.ipynb : 각종 노이즈를 생성하고 생성된 노이즈를 표시한다.
